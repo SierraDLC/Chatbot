@@ -82,16 +82,16 @@ public static void testQ() {
     System.out.println("...");
     System.out.println("Quizzy quiz time!");
 
-    System.out.println("Which of the following is false about String?");
+    System.out.println("Which of the following is false about  a String?");
     
     System.out.println("[A]:String is immutable.");
-    System.out.println("[B]:String is immutable.");
+    System.out.println("[B]:String is mutable.");
     System.out.println("[C]:String is a primary data type");
     System.out.println("[D]: None of the above.");
 
     String answer = input.nextLine();
 
-    while(!answer.toUpperCase().equals("C")){
+    while(!answer.toUpperCase().equals("B")){
        
         System.out.println("INCORRECT");
         
